@@ -61,9 +61,3 @@ import ListaDeTarefas from './components/ListaDeTarefas.vue'
     <ListaDeTarefas :tarefas="getTarefasFiltradas()"/>
   </div>
 </template>
-
-<style scoped>
-  .done {
-    text-decoration: line-through;
-  }
-</style>
